@@ -12,7 +12,7 @@ class Exercise1Test {
         for (int i = 0; i < 10; ++i) {
             Exercise1 clazz = new Exercise1();
             clazz.procedure();
-            assertEquals(Color.GREEN, clazz.lock.checkColor());
+            assertEquals(Color.GREEN, clazz.hedgeV1.checkColor());
         }
     }
 
@@ -22,7 +22,7 @@ class Exercise1Test {
             Exercise1 clazz = new Exercise1();
             clazz.procedure();
             clazz.procedure();
-            assertEquals(Color.GREEN, clazz.lock.checkColor());
+            assertEquals(Color.GREEN, clazz.hedgeV1.checkColor());
         }
     }
 }

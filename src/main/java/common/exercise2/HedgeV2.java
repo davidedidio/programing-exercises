@@ -1,4 +1,4 @@
-package exercise2;
+package common.exercise2;
 
 import common.ExerciseFail;
 
@@ -7,11 +7,11 @@ import java.util.LinkedList;
 
 import static common.Color.*;
 
-public class PersonInspector {
+public class HedgeV2 {
 
     private final LinkedList<Person> allPeople;
 
-    public PersonInspector(Person leader) {
+    public HedgeV2(Person leader) {
         this.allPeople = new LinkedList<>();
         allPeople.add(leader);
         allPeople.add(new Person(GREEN, RED, false, "James"));

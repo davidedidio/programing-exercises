@@ -1,10 +1,10 @@
-package exercise1;
+package common.exercise1;
 
 import common.Color;
 
 import java.util.Random;
 
-public class SpiningLock {
+public class HedgeV1 {
 
     private final static int LOCK_TOTAL_COUNT = 100;
     private final static int LOCK_SOLUTION = new Random().nextInt(LOCK_TOTAL_COUNT);

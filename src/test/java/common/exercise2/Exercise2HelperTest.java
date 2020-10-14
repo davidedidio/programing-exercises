@@ -1,9 +1,11 @@
-package exercise2;
+package common.exercise2;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Disabled
 class Exercise2HelperTest {
     private final Exercise2Helper exercise2Helper = new Exercise2Helper();
 

@@ -2,16 +2,19 @@ package exercise2;
 
 import common.Color;
 import common.ExerciseFail;
+import common.exercise2.Exercise2Helper;
+import common.exercise2.Person;
+import common.exercise2.HedgeV2;
 import lombok.Value;
 
 @Value
 public class Exercise2 {
 
-    PersonInspector inspector;
+    public HedgeV2 hedgeV2;
     Exercise2Helper helper = new Exercise2Helper();
 
-    public Exercise2(PersonInspector personInspector) {
-        this.inspector = personInspector;
+    public Exercise2(HedgeV2 personInspector) {
+        this.hedgeV2 = personInspector;
     }
 
     public boolean isLeader(Person person) {

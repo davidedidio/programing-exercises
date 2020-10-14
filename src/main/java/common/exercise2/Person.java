@@ -1,4 +1,4 @@
-package exercise2;
+package common.exercise2;
 
 import common.Color;
 import lombok.RequiredArgsConstructor;
