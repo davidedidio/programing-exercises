@@ -4,7 +4,7 @@ import common.Color;
 
 import java.util.Random;
 
-public class Exercise1Lock {
+public class SpiningLock {
 
     private final static int LOCK_TOTAL_COUNT = 100;
     private final static int LOCK_SOLUTION = new Random().nextInt(LOCK_TOTAL_COUNT);

@@ -25,5 +25,4 @@ class Exercise1Test {
             assertEquals(Color.GREEN, clazz.lock.checkColor());
         }
     }
-
 }
